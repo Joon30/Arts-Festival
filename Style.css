@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document */
+
+           /* Homepage */
+.Home {
+    width: 100%;
+}
+
+h1, h2,h5, p {
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 90%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 8px;
+    margin-top: 40px;
+}
+
+article {
+    width: 75%;
+    max-width: 750px;
+    margin-top: -15px;
+    margin-bottom: 27px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Titlebox {
+    margin-top: -11px;
+    background-color: #CACACA !important;
+    padding-top: 21px;
+    margin-bottom: 0px;
+    margin-right: 21px;
+}
+
+.Arts {
+    color: #000000!important;
+    margin-top: -12px;
+    padding-top: 15px;
+    margin-left: -20px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+.Arts:hover {
+    color: #469743!important;
+}
+
+.Imagine {
+    text-align: center;
+    margin-top: 35px;
+    background-color: #11602B;
+    color: #FFFFFF;
+    left: 15px;
+    display: run-in;
+}
+
+.Imagine:hover {
+    background-color: #607F60;
+}
+
+.Christmas {
+    text-align: center;
+    margin-top: 35px;
+    background-color: #11602B;
+    color: #FFFFFF;
+    margin-right: 0px;
+    right: 15px;
+}
+
+.Christmas:hover {
+    background-color: #607F60;
+}
+
+.whatson {
+    background-color: #085148;
+    color: #FFFFFF;
+    width: 100%;
+    margin-top: -14px;
+    margin-bottom: -14px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    margin-right: -14px;
+    margin-left: -14px;
+}
+
+ .footer {
+    background-color: #C0B7B7;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .footer-content {
+    display: compact;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 305px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+  }
+  .footer-contact,
+  .footer-social {
+    flex: 1;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 5px;
+  }
+  strong {
+    font-weight: 700;
+  }
+  a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #000;
+  }
+  .footer-bottom {
+    padding: 0.5rem;
+    background-color: #CACACA;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+
+
+
+           /* ContactUS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 54px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background: #C6E1E3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0px rgba(16,16,16,1.00);
+    margin-left: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 52px;
+    margin-right: -72px;
+    margin-left: 19px;	
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 85%;
+}
+ 
+button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    width: 85% !important;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.Contact {
+    width: 80%;
+    margin-left: 160px;
+    margin-top: 40px;
+}
+
+.pArts {
+    font-size: large;
+    font-variant: normal;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-style: oblique;
+    margin-bottom: -4px;
+    text-decoration: underline;
+    margin-top: 0px;
+}
+.p1 {
+    margin-top: 9px;
+    margin-right: 9px;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 9px;
+    margin-left: 9px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+
+
+
+           /* Tickets */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+header nav a.active {
+  font-weight: bold;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+           /* News */
+.news-image {
+    width: 540px;
+    margin-bottom: -6px;
+}
+
+.news-section {
+    margin-top: 36px;	
+}
+
+
+
+
+           /* About Us */
+.section {
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	max-width: 800px;
+}
+
+.section img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+	border-radius: 8px;
+}
+
+.section h2 {
+	margin-top: 10px;
+}
+
+.section p {
+	margin-bottom: 15px;
+}
+  

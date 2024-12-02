@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="Style.css" rel="stylesheet" type="text/css">
+	  
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light Titlebox"> <a class="navbar-brand Arts" href="Homepage.html">&nbsp; &nbsp; &nbsp; &nbsp;Arts Festival</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav mr-auto ml-auto">
+        <li class="nav-item active"> <a class="nav-link" href="Homepage.html">Home <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="Tickets.html">Tickets</a> </li>
+		<li class="nav-item"> <a class="nav-link" href="News.html">News</a> </li>
+		<li class="nav-item"> <a class="nav-link" href="About Us.html">About Us</a> </li>
+		<li class="nav-item"> <a class="nav-link" href="ContactUs.html">Contact Us</a> </li>
+      </ul>
+    </div>
+  </nav>  
+	  
+  <header>
+    <h1>General Admissions Arts Festival - Tickets</h1>
+  </header>
+ 
+    <div class="container">
+        <form action="submit_ticket.php" method="POST">
+            <label for="show">Activities:</label>
+            <select id="show" name="show" required>
+                <option value="">-- Please Select --</option>
+                <option value="Christmas">Christmas Market Festival</option>
+                <option value="Irish">Irish Dancing Festival 2025</option>
+                <option value="Block">Block Rockin Beats 2025</option>
+                <option value="Imagine">Imagine Arts Festival 2025</option>
+            </select>
+
+			
+            <label for="adults-tickets">Adults Tickets:</label>
+            <input type="number" id="adults-tickets" name="tickets"  value="0" min="1" max="20" >
+			<span class="price">$15.00</span>
+			
+			<label for="students-ticket">Students Ticket</label>
+			<input type="number" id="student-ticket" name="student" value="0" min="1" max="20" >
+			<span class="price">$7.50</span>
+			
+			
+			<button onclick="alert('Proceeding to Checkout')">Buy Tickets</button>
+        </form>
+    </div>	    
+	  
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-contact">
+      <p><strong>Contact Us:</strong></p>
+      <p>Email: <a href="ContactUs.html" target="_blank">Joon@artsfestival.com</a></p>
+      <p>Phone: <a href="tel:+353(08)1234567">+353(08)1234567</a></p>
+    </div>
+
+    <div class="footer-social">
+      <p><strong>Follow Us:</strong></p>
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+      <a href="https://x.com/?lang=en-ie" target="_blank">Twitter</a>
+      <a href="https:https://www.bing.com/search?pglt=2083&q=facebook&cvid=b0d58f5933d64baaadd4032cb1aa805f&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQgxMzc1ajBqMagCALACAA&FORM=ANNTA1&DAF0=1&PC=U531l" target="_blank">Facebook</a>
+    </div>
+  </div>
+	
+  <div class="footer-bottom">
+    <p><strong>&copy; 2024 Arts Festival. All Rights Reserved.</strong></p>
+  </div>
+</footer>	  
+	  
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
